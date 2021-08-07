@@ -1,12 +1,11 @@
-function sumar(a,b,c) {
+function sumarTresNumeros(a,b,c) {
+    
+    c = (typeof c !== 'undefined') ?  c : 4
     const d = a + b + c;
-    console.log('el resultado de la suma es: ', d);
-    //return d;
+
+    return d;
     
 }
 
-sumar(1, 5, 8);
- 
-//module.exports = { sumar };
+module.exports = { sumarTresNumeros };
 
-//Para realizar el test habilitar las linea 4 y 10. Y comentar las lineas 3 y 8
