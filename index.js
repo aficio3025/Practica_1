@@ -1,6 +1,6 @@
-function sumarTresNumeros(a,b,c) {
+function sumarTresNumeros(a,b) {
     
-    c = (typeof c !== 'undefined') ?  c : 4
+    let c = a + b;
     const d = a + b + c;
 
     return d;
